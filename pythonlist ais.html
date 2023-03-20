@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('u.jpg');
+
+        }
+
+        #tanmay tr:nth-child(even) {
+            background-color: burlywood;
+        }
+
+        #tanmay tr:nth-child(odd) {
+            background-color: brown;
+        }
+
+        .m {
+            text-align: center;
+    padding: down;
+    margin-bottom: 0%;
+    
+  }
+           
+      
+    </style>
+</head>
+
+<body>
+    <p style="font-size: 70px; text-align: center;"><b><mark>python List Methods </mark> </b> </p>
+
+    <table border="1" align="center" id="tanmay">
+        <tr>
+            <th style="font-size: 60px; background-color: #04AA6D;">INPUT</th>
+            <TH style="font-size: 60px; background-color: #04AA6D;">METHOD</TH>
+            <TH style="font-size: 60px; background-color: #04AA6D;">OUTPUT</TH>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[4,3,5]</td>
+            <td style="font-size: 40px;">sort()</td>
+            <td style="font-size: 40px;">[3,4,5]</td>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[1,2,3]</td>
+            <td style="font-size: 40px;">clear()</td>
+            <td style="font-size: 40px;">[]</td>
+        <tr>
+            <td style="font-size: 40px;">[1,2,3]</td>
+            <td style="font-size: 40px;">append(4)</td>
+            <td style="font-size: 40px;">[1,2,3,4,]</td>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[4,3,3,5]</td>
+            <td style="font-size: 40px;">count(3)</td>
+            <td style="font-size: 40px;">2</td>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[1,2,3]</td>
+            <td style="font-size: 40px;">extend([4])</td>
+            <td style="font-size: 40px;">[1,2,3,4]</td>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[1,2,3]</td>
+            <td style="font-size: 40px;">insert(3,4)</td>
+            <td style="font-size: 40px;">[1,2,3,4]</td>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[1,2,3]</td>
+            <td style="font-size: 40px;">index(2)</td>
+            <td style="font-size: 40px;">1</td>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[1,3,5]</td>
+            <td style="font-size: 40px;">remove(3)</td>
+            <td style="font-size: 40px;"> [1,5]</td>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[4,3,5]</td>
+            <td style="font-size: 40px;">pop(2)</td>
+            <td style="font-size: 40px;">[3,4]</td>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[4,3,5]</td>
+            <td style="font-size: 40px;"> reverse()</td>
+            <td style="font-size: 40px;">[5,3,4]</td>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[4,3,5]</td>
+            <td style="font-size: 40px;">copy()</td>
+            <td style="font-size: 40px;">[4,3,5]</td>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[4,3,5]</td>
+            <td style="font-size: 40px;">len()</td>
+            <td style="font-size: 40px;">3</td>
+        </tr>
+        <tr>
+            <td style="font-size: 40px;">[4,3,5]</td>
+            <td style="font-size: 40px;">min()</td>
+            <td style="font-size: 40px;">3</td>
+        </tr>
+        <td style="font-size: 40px;">[4,3,5]</td>
+        <td style="font-size: 40px;">max()</td>
+        <td style="font-size: 40px;">5</td>
+
+
+
+
+
+
+
+
+
+    </table>
+    <div class="m">
+        <button style="color: crimson; font-size: 50px; " onclick="myFunction()"><b>Try it</b></button>
+    </div>
+</body>
+
+</html>
+<script>
+    function myFunction() {
+        var x = document.getElementById("tanmay");
+        x.deleteRow(0);
+    }
+</script>
